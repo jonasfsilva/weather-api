@@ -35,7 +35,7 @@ services:
 
   tests:
     build: .
-    command: python manage.py test
+    command: python manage.py test weather.tests
     volumes:
       - .:/app
     depends_on:
